@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A330BEDD1B89F03E005C4C51 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A330BEDC1B89F03E005C4C51 /* VideoViewController.m */; };
+		A330BEE31B8A00A5005C4C51 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A330BEE21B8A00A5005C4C51 /* AVKit.framework */; };
+		A330BEE71B8A12CD005C4C51 /* Star Wars Episode VII - The Force Awakens - Teaser Trailer 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A330BEE61B8A12CD005C4C51 /* Star Wars Episode VII - The Force Awakens - Teaser Trailer 2.mp4 */; };
+		A3408D4E1BABB03200E42430 /* Matrix4.m in Sources */ = {isa = PBXBuildFile; fileRef = A3408D4D1BABB03200E42430 /* Matrix4.m */; };
+		A3408D5E1BAC189500E42430 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3408D5B1BAC189500E42430 /* OpenGLView.m */; };
+		A3408D5F1BAC189500E42430 /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = A3408D5C1BAC189500E42430 /* SimpleFragment.glsl */; };
+		A3408D601BAC189500E42430 /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = A3408D5D1BAC189500E42430 /* SimpleVertex.glsl */; };
+		A3408D6F1BAC18AE00E42430 /* CC3Foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3408D631BAC18AE00E42430 /* CC3Foundation.m */; };
+		A3408D701BAC18AE00E42430 /* CC3GLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = A3408D651BAC18AE00E42430 /* CC3GLMatrix.m */; };
+		A3408D711BAC18AE00E42430 /* CC3Kazmath.c in Sources */ = {isa = PBXBuildFile; fileRef = A3408D661BAC18AE00E42430 /* CC3Kazmath.c */; };
+		A3408D721BAC18AE00E42430 /* CC3Math.m in Sources */ = {isa = PBXBuildFile; fileRef = A3408D6A1BAC18AE00E42430 /* CC3Math.m */; };
+		A3408D731BAC18AE00E42430 /* NSValue+CC3Types.m in Sources */ = {isa = PBXBuildFile; fileRef = A3408D6E1BAC18AE00E42430 /* NSValue+CC3Types.m */; };
 		A35F4EDB1B8619B30008687A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A35F4EDA1B8619B30008687A /* main.m */; };
 		A35F4EDE1B8619B30008687A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A35F4EDD1B8619B30008687A /* AppDelegate.m */; };
 		A35F4EE11B8619B30008687A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35F4EE01B8619B30008687A /* ViewController.m */; };
@@ -14,6 +26,14 @@
 		A35F4EE61B8619B30008687A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35F4EE51B8619B30008687A /* Images.xcassets */; };
 		A35F4EE91B8619B30008687A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A35F4EE71B8619B30008687A /* LaunchScreen.xib */; };
 		A35F4EF51B8619B30008687A /* SenseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A35F4EF41B8619B30008687A /* SenseTests.m */; };
+		A3BA76D21B906567008E7B71 /* CBCentralManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BA76D11B906567008E7B71 /* CBCentralManagerViewController.m */; };
+		A3BA76D81B937133008E7B71 /* MadgwickAHRS.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BA76D61B937133008E7B71 /* MadgwickAHRS.c */; };
+		A3FCEAEA1BBCF6F400594DE4 /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCEAE41BBCF6F400594DE4 /* Cube.swift */; settings = {ASSET_TAGS = (); }; };
+		A3FCEAEB1BBCF6F400594DE4 /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCEAE51BBCF6F400594DE4 /* MetalViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A3FCEAEC1BBCF6F400594DE4 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCEAE61BBCF6F400594DE4 /* Node.swift */; settings = {ASSET_TAGS = (); }; };
+		A3FCEAED1BBCF6F400594DE4 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = A3FCEAE71BBCF6F400594DE4 /* Shaders.metal */; settings = {ASSET_TAGS = (); }; };
+		A3FCEAEE1BBCF6F400594DE4 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCEAE81BBCF6F400594DE4 /* Triangle.swift */; settings = {ASSET_TAGS = (); }; };
+		A3FCEAEF1BBCF6F400594DE4 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCEAE91BBCF6F400594DE4 /* Vertex.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +47,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A330BEDC1B89F03E005C4C51 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		A330BEDE1B89F068005C4C51 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		A330BEE21B8A00A5005C4C51 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		A330BEE61B8A12CD005C4C51 /* Star Wars Episode VII - The Force Awakens - Teaser Trailer 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Star Wars Episode VII - The Force Awakens - Teaser Trailer 2.mp4"; sourceTree = "<group>"; };
+		A3408D4C1BABB03200E42430 /* Matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix4.h; sourceTree = "<group>"; };
+		A3408D4D1BABB03200E42430 /* Matrix4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix4.m; sourceTree = "<group>"; };
+		A3408D501BABB35900E42430 /* MetalBridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetalBridging.h; sourceTree = "<group>"; };
+		A3408D5A1BAC189500E42430 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		A3408D5B1BAC189500E42430 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		A3408D5C1BAC189500E42430 /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
+		A3408D5D1BAC189500E42430 /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		A3408D621BAC18AE00E42430 /* CC3Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Foundation.h; sourceTree = "<group>"; };
+		A3408D631BAC18AE00E42430 /* CC3Foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Foundation.m; sourceTree = "<group>"; };
+		A3408D641BAC18AE00E42430 /* CC3GLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3GLMatrix.h; sourceTree = "<group>"; };
+		A3408D651BAC18AE00E42430 /* CC3GLMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3GLMatrix.m; sourceTree = "<group>"; };
+		A3408D661BAC18AE00E42430 /* CC3Kazmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CC3Kazmath.c; sourceTree = "<group>"; };
+		A3408D671BAC18AE00E42430 /* CC3Kazmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Kazmath.h; sourceTree = "<group>"; };
+		A3408D681BAC18AE00E42430 /* CC3Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Logging.h; sourceTree = "<group>"; };
+		A3408D691BAC18AE00E42430 /* CC3Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Math.h; sourceTree = "<group>"; };
+		A3408D6A1BAC18AE00E42430 /* CC3Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Math.m; sourceTree = "<group>"; };
+		A3408D6B1BAC18AE00E42430 /* CC3MathInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3MathInclude.h; sourceTree = "<group>"; };
+		A3408D6C1BAC18AE00E42430 /* ccTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTypes.h; sourceTree = "<group>"; };
+		A3408D6D1BAC18AE00E42430 /* NSValue+CC3Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+CC3Types.h"; sourceTree = "<group>"; };
+		A3408D6E1BAC18AE00E42430 /* NSValue+CC3Types.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+CC3Types.m"; sourceTree = "<group>"; };
 		A35F4ED51B8619B30008687A /* Sense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35F4ED91B8619B30008687A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A35F4EDA1B8619B30008687A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +84,17 @@
 		A35F4EEE1B8619B30008687A /* SenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35F4EF31B8619B30008687A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A35F4EF41B8619B30008687A /* SenseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SenseTests.m; sourceTree = "<group>"; };
+		A3BA76D01B906539008E7B71 /* CBCentralManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBCentralManagerViewController.h; sourceTree = "<group>"; };
+		A3BA76D11B906567008E7B71 /* CBCentralManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBCentralManagerViewController.m; sourceTree = "<group>"; };
+		A3BA76D31B9065FF008E7B71 /* SERVICES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SERVICES.h; sourceTree = "<group>"; };
+		A3BA76D61B937133008E7B71 /* MadgwickAHRS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MadgwickAHRS.c; sourceTree = "<group>"; };
+		A3BA76D71B937133008E7B71 /* MadgwickAHRS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadgwickAHRS.h; sourceTree = "<group>"; };
+		A3FCEAE41BBCF6F400594DE4 /* Cube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
+		A3FCEAE51BBCF6F400594DE4 /* MetalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
+		A3FCEAE61BBCF6F400594DE4 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		A3FCEAE71BBCF6F400594DE4 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		A3FCEAE81BBCF6F400594DE4 /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		A3FCEAE91BBCF6F400594DE4 /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A330BEE31B8A00A5005C4C51 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +116,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3408D611BAC18AE00E42430 /* CC3Math */ = {
+			isa = PBXGroup;
+			children = (
+				A3408D621BAC18AE00E42430 /* CC3Foundation.h */,
+				A3408D631BAC18AE00E42430 /* CC3Foundation.m */,
+				A3408D641BAC18AE00E42430 /* CC3GLMatrix.h */,
+				A3408D651BAC18AE00E42430 /* CC3GLMatrix.m */,
+				A3408D661BAC18AE00E42430 /* CC3Kazmath.c */,
+				A3408D671BAC18AE00E42430 /* CC3Kazmath.h */,
+				A3408D681BAC18AE00E42430 /* CC3Logging.h */,
+				A3408D691BAC18AE00E42430 /* CC3Math.h */,
+				A3408D6A1BAC18AE00E42430 /* CC3Math.m */,
+				A3408D6B1BAC18AE00E42430 /* CC3MathInclude.h */,
+				A3408D6C1BAC18AE00E42430 /* ccTypes.h */,
+				A3408D6D1BAC18AE00E42430 /* NSValue+CC3Types.h */,
+				A3408D6E1BAC18AE00E42430 /* NSValue+CC3Types.m */,
+			);
+			path = CC3Math;
+			sourceTree = "<group>";
+		};
 		A35F4ECC1B8619B30008687A = {
 			isa = PBXGroup;
 			children = (
+				A330BEE21B8A00A5005C4C51 /* AVKit.framework */,
 				A35F4ED71B8619B30008687A /* Sense */,
 				A35F4EF11B8619B30008687A /* SenseTests */,
 				A35F4ED61B8619B30008687A /* Products */,
@@ -81,14 +158,32 @@
 		A35F4ED71B8619B30008687A /* Sense */ = {
 			isa = PBXGroup;
 			children = (
-				A35F4EDC1B8619B30008687A /* AppDelegate.h */,
-				A35F4EDD1B8619B30008687A /* AppDelegate.m */,
-				A35F4EDF1B8619B30008687A /* ViewController.h */,
-				A35F4EE01B8619B30008687A /* ViewController.m */,
+				A3FCEAE41BBCF6F400594DE4 /* Cube.swift */,
+				A3FCEAE51BBCF6F400594DE4 /* MetalViewController.swift */,
+				A3FCEAE61BBCF6F400594DE4 /* Node.swift */,
+				A3FCEAE71BBCF6F400594DE4 /* Shaders.metal */,
+				A3FCEAE81BBCF6F400594DE4 /* Triangle.swift */,
+				A3FCEAE91BBCF6F400594DE4 /* Vertex.swift */,
+				A3408D611BAC18AE00E42430 /* CC3Math */,
+				A3408D5A1BAC189500E42430 /* OpenGLView.h */,
+				A3408D5B1BAC189500E42430 /* OpenGLView.m */,
+				A3408D5C1BAC189500E42430 /* SimpleFragment.glsl */,
+				A3408D5D1BAC189500E42430 /* SimpleVertex.glsl */,
+				A3408D4C1BABB03200E42430 /* Matrix4.h */,
+				A3408D4D1BABB03200E42430 /* Matrix4.m */,
+				A330BEE61B8A12CD005C4C51 /* Star Wars Episode VII - The Force Awakens - Teaser Trailer 2.mp4 */,
 				A35F4EE21B8619B30008687A /* Main.storyboard */,
+				A35F4EDF1B8619B30008687A /* ViewController.h */,
+				A330BEDC1B89F03E005C4C51 /* VideoViewController.m */,
+				A330BEDE1B89F068005C4C51 /* VideoViewController.h */,
+				A35F4EE01B8619B30008687A /* ViewController.m */,
+				A3BA76D01B906539008E7B71 /* CBCentralManagerViewController.h */,
+				A3BA76D11B906567008E7B71 /* CBCentralManagerViewController.m */,
+				A3BA76D31B9065FF008E7B71 /* SERVICES.h */,
 				A35F4EE51B8619B30008687A /* Images.xcassets */,
 				A35F4EE71B8619B30008687A /* LaunchScreen.xib */,
 				A35F4ED81B8619B30008687A /* Supporting Files */,
+				A3408D501BABB35900E42430 /* MetalBridging.h */,
 			);
 			path = Sense;
 			sourceTree = "<group>";
@@ -96,6 +191,10 @@
 		A35F4ED81B8619B30008687A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A3BA76D61B937133008E7B71 /* MadgwickAHRS.c */,
+				A3BA76D71B937133008E7B71 /* MadgwickAHRS.h */,
+				A35F4EDC1B8619B30008687A /* AppDelegate.h */,
+				A35F4EDD1B8619B30008687A /* AppDelegate.m */,
 				A35F4ED91B8619B30008687A /* Info.plist */,
 				A35F4EDA1B8619B30008687A /* main.m */,
 			);
@@ -163,11 +262,13 @@
 		A35F4ECD1B8619B30008687A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Kaiwen Huang";
 				TargetAttributes = {
 					A35F4ED41B8619B30008687A = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = MWF73R64GS;
 					};
 					A35F4EED1B8619B30008687A = {
 						CreatedOnToolsVersion = 6.4;
@@ -199,9 +300,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A330BEE71B8A12CD005C4C51 /* Star Wars Episode VII - The Force Awakens - Teaser Trailer 2.mp4 in Resources */,
 				A35F4EE41B8619B30008687A /* Main.storyboard in Resources */,
 				A35F4EE91B8619B30008687A /* LaunchScreen.xib in Resources */,
 				A35F4EE61B8619B30008687A /* Images.xcassets in Resources */,
+				A3408D5F1BAC189500E42430 /* SimpleFragment.glsl in Resources */,
+				A3408D601BAC189500E42430 /* SimpleVertex.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +323,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3BA76D21B906567008E7B71 /* CBCentralManagerViewController.m in Sources */,
+				A3408D731BAC18AE00E42430 /* NSValue+CC3Types.m in Sources */,
+				A3FCEAEB1BBCF6F400594DE4 /* MetalViewController.swift in Sources */,
+				A3FCEAEE1BBCF6F400594DE4 /* Triangle.swift in Sources */,
+				A3FCEAEF1BBCF6F400594DE4 /* Vertex.swift in Sources */,
 				A35F4EE11B8619B30008687A /* ViewController.m in Sources */,
+				A3FCEAED1BBCF6F400594DE4 /* Shaders.metal in Sources */,
+				A3408D721BAC18AE00E42430 /* CC3Math.m in Sources */,
+				A3408D4E1BABB03200E42430 /* Matrix4.m in Sources */,
+				A3408D5E1BAC189500E42430 /* OpenGLView.m in Sources */,
+				A3BA76D81B937133008E7B71 /* MadgwickAHRS.c in Sources */,
 				A35F4EDE1B8619B30008687A /* AppDelegate.m in Sources */,
+				A3408D6F1BAC18AE00E42430 /* CC3Foundation.m in Sources */,
+				A3408D701BAC18AE00E42430 /* CC3GLMatrix.m in Sources */,
+				A3FCEAEC1BBCF6F400594DE4 /* Node.swift in Sources */,
+				A330BEDD1B89F03E005C4C51 /* VideoViewController.m in Sources */,
+				A3408D711BAC18AE00E42430 /* CC3Kazmath.c in Sources */,
+				A3FCEAEA1BBCF6F400594DE4 /* Cube.swift in Sources */,
 				A35F4EDB1B8619B30008687A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +404,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -349,9 +470,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Sense/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kaiwen.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = ./Sense/MetalBridging.h;
 			};
 			name = Debug;
 		};
@@ -359,9 +485,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Sense/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kaiwen.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = ./Sense/MetalBridging.h;
 			};
 			name = Release;
 		};
@@ -379,6 +510,7 @@
 				);
 				INFOPLIST_FILE = SenseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kaiwen.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sense.app/Sense";
 			};
@@ -394,6 +526,7 @@
 				);
 				INFOPLIST_FILE = SenseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kaiwen.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sense.app/Sense";
 			};
@@ -418,6 +551,7 @@
 				A35F4EFA1B8619B30008687A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A35F4EFB1B8619B30008687A /* Build configuration list for PBXNativeTarget "SenseTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +560,7 @@
 				A35F4EFD1B8619B30008687A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
